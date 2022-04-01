@@ -10,7 +10,7 @@ const clientSchema = new mongoose.Schema({
     required: true
   },
   age: {
-    type: Number,
+    type: String,
     required: false
   },
   phoneNumber: {

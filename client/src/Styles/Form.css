@@ -1,0 +1,26 @@
+.CreateNewUser .NewUserTitle {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.CreateNewUser .NewUserTitle .div {
+  text-align: center;
+}
+
+.NewUserTitle:hover {
+  box-shadow: 5px 5px #9e9e9e;
+}
+
+.CreateNewUser div {
+  justify-content: center;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 5px;
+}

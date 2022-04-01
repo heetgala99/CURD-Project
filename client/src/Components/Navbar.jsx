@@ -1,18 +1,31 @@
 import {
-  Grid
+  Button
 } from '@material-ui/core';
+import './../Styles/Navbar.css';
 
 const NavBar = () => {
 
   return(
-    <div>
-      <Grid
-        alignContent="space-between"
-        direction="column"
-      >
-        <Grid>Hello</Grid>
-        <Grid>There</Grid>
-      </Grid>
+    <div className='Navbar'>
+      <h1 className='NavbarTitle'>
+        Client Users List
+      </h1>
+      <div className='NavbarButtons'>
+        <Button
+          variant='contained'
+          color='secondary'
+          href='/'
+        >
+          Home
+        </Button>
+        <Button
+            variant='contained'
+            color='primary'
+            href='/create'
+          >
+            New User
+        </Button>
+      </div>
     </div>
   );
 };
