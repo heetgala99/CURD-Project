@@ -1,0 +1,28 @@
+
+.Navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+.Navbar h1 {
+  color: #424242;
+}
+
+.Navbar:hover {
+  box-shadow: 5px 5px #9e9e9e;
+}
+
+.Navbar .NavbarButtons {
+  margin-left: auto;
+}
+
+
+.Navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
